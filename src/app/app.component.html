@@ -1,0 +1,27 @@
+<div class="roosterjs-controls">
+  <span
+    class="roosterjs-button"
+    [class.highlight]="bold"
+    id="js-rooster-editor-bold"
+    (click)="bold = !bold"
+  >
+    <b>B</b>
+  </span>
+  <span
+    class="roosterjs-button"
+    [class.highlight]="italic"
+    id="js-rooster-editor-italic"
+    (click)="italic = !italic"
+  >
+    <i>I</i>
+  </span>
+  <span
+    class="roosterjs-button"
+    [class.highlight]="underline"
+    id="js-rooster-editor-underline"
+    (click)="underline = !underline"
+  >
+    <u>U</u>
+  </span>
+</div>
+<div class="roosterjs-editor" id="js-rooster-editor-container"></div>
